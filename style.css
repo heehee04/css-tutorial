@@ -1,0 +1,29 @@
+h1 {
+    color: aqua;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+* {
+    color: white
+  }
+#main-nav {
+    background-color: grey;
+    padding: 1px;
+    text-align:center;
+
+}
+#main-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#main-nav a {
+    color:black;
+}
+.artist-list-item {
+    display: inline;
+    margin-right: 15px;
+    font-size: 3rem;
+}
