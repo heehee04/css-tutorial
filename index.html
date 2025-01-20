@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Artists</title>
+  </head>
+  <body>
+    <!-- Header section with a title and navigation links -->
+    <header>
+      <h1>My Music World</h1>
+      <!-- Use CSS to set font size, text alignment, and margin -->
+      <nav>
+        <ul>
+          <!-- Use CSS to make the list horizontal: set display to flex or inline, and add gap or margin for spacing -->
+          <li><a href="#artists">Artists</a></li>
+          <!-- Style links with padding, color, and hover effects -->
+          <li><a href="#genres">Genres</a></li>
+          <li><a href="#playlists">Playlists</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Use an ID to center the content, set a max width, and add padding -->
+      <!-- Introduction section -->
+      <section>
+        <h2>Welcome to My Music World</h2>
+        <!-- Center align text and add top/bottom margin -->
+        <p>
+          Explore my favorite artists, genres, and playlists. Feel free to add
+          your favorites too!
+        </p>
+      </section>
+
+      <!-- Artists section with multiple articles -->
+      <section>
+        <h2>Favorite Artists</h2>
+        <article>
+          <h3>Artist Name</h3>
+          <!-- Add bottom margin and bold font style -->
+          <p>
+            This artist is known for their amazing vocals and creative lyrics.
+          </p>
+          <ul>
+            <li>Album 1</li>
+            <!-- Add spacing between list items and style bullet points -->
+            <li>Album 2</li>
+            <li>Album 3</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Another Artist</h3>
+          <p>This artist blends genres to create a unique sound.</p>
+          <ul>
+            <li>Album A</li>
+            <li>Album B</li>
+            <li>Album C</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Genres section -->
+      <section>
+        <h2>Favorite Genres</h2>
+        <ul>
+          <li data-popularity="high">Pop</li>
+          <!-- Use attribute selectors to style items based on data-popularity -->
+          <li data-popularity="medium">Rock</li>
+          <li data-popularity="low">Jazz</li>
+        </ul>
+      </section>
+
+      <!-- Playlists section with divs for flex or float demonstration -->
+      <section>
+        <h2>My Playlists</h2>
+        <div class="playlist">
+          <!-- Use a class to set width, add margin, and use flexbox for alignment -->
+          <h3>Chill Vibes</h3>
+          <p>Perfect for relaxing evenings.</p>
+          <ul>
+            <li>Song 1</li>
+            <li>Song 2</li>
+            <li>Song 3</li>
+          </ul>
+        </div>
+        <div class="playlist">
+          <!-- Use the same class for consistent layout styling -->
+          <h3>Workout Mix</h3>
+          <p>Get pumped with these tracks!</p>
+          <ul>
+            <li>Track A</li>
+            <li>Track B</li>
+            <li>Track C</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2025 My Music World</p>
+      <!-- Center align text and add padding -->
+      <a href="#top">Back to Top</a>
+    </footer>
+  </body>
+</html>
